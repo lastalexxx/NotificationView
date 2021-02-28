@@ -1,6 +1,6 @@
 # NotificationView
 
-![](https://i.imgur.com/G1m9X8u.png)
+![](https://i.imgur.com/lBl2OHX.png)
 ## Menu
 1. [About](#about)
 2. [Install](#install)
