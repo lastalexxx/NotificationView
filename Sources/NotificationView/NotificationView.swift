@@ -1,6 +1,6 @@
 import UIKit
 
-class NotificationView: UIView, NotificationViewActionsDelegate {
+public class NotificationView: UIView, NotificationViewActionsDelegate {
     
     /// Position of view presentation on device screen.
     enum positionEnum {
@@ -8,7 +8,7 @@ class NotificationView: UIView, NotificationViewActionsDelegate {
     }
     
     /// To find view use tag 42.
-    override var tag: Int { get { return 42 } set{} }
+    public override var tag: Int { get { return 42 } set{} }
     
     /// Text label. Supported 2 lines.
     ///
