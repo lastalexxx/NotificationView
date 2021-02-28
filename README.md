@@ -131,7 +131,7 @@ class LikeView: NotificationView {
 ```
 
 **Result:**
-![Like notification](https://i.imgur.com/Rz4ZCJe.mp4)
+[video link](https://i.imgur.com/Rz4ZCJe.mp4)
 
 ## Conclusion
 Not rocket science but you can save time by not doing it manually.
