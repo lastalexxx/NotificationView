@@ -99,7 +99,7 @@ open class NotificationView: UIView, NotificationViewActionsDelegate {
     /// Configuration of textLabel and imageView.
     ///
     /// Override this function in inherited class to set text, image and other options.
-    public func configure() {
+    open func configure() {
         backgroundColor = .systemTeal
         textLabel.text = "Placeholder line\nNext"
         if #available(iOS 13.0, *) {
@@ -114,7 +114,7 @@ open class NotificationView: UIView, NotificationViewActionsDelegate {
     /// - Parameters:
     ///   - image: UIImage. Optional.
     ///   - text: String. Optional.
-    public final func setImageAndText(image: UIImage? = nil, text: String? = nil) {
+    open func setImageAndText(image: UIImage? = nil, text: String? = nil) {
         if let unwrapedImage = image {
             imageView.image = unwrapedImage
         }
