@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "NotificationView",
+    name: "NotificationViewLib",
     platforms: [
         .iOS(.v11)
     ], products: [
