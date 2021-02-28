@@ -1,9 +1,9 @@
 import UIKit
 
-public class NotificationView: UIView, NotificationViewActionsDelegate {
+open class NotificationView: UIView, NotificationViewActionsDelegate {
     
     /// Position of view presentation on device screen.
-    enum positionEnum {
+    public enum positionEnum {
         case top, bottom
     }
     
@@ -27,7 +27,7 @@ public class NotificationView: UIView, NotificationViewActionsDelegate {
     private var viewHiddenCenter: CGPoint!
     
     //MARK: - init
-    convenience init(at position: positionEnum) {
+    public convenience init(at position: positionEnum) {
         self.init()
         let screenBounds = UIScreen.main.bounds
         var orientationMultiplier: CGFloat = 0

@@ -10,7 +10,7 @@ let package = Package(
     ], products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "NotificationView",
+            name: "NotificationViewLib",
             targets: ["NotificationView"]),
     ],
     dependencies: [
