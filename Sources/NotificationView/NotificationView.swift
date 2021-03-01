@@ -216,7 +216,7 @@ open class NotificationView: UIView, NotificationViewActionsDelegate {
 
 //MARK: - protocol
 /// Use this protocol for control NotificationView presenting and dismissing.
-protocol NotificationViewActionsDelegate {
+public protocol NotificationViewActionsDelegate {
     func present(dismissAfter: Double?)
     func dismiss()
     func dismissWithHandler(handler: @escaping () -> Void)
